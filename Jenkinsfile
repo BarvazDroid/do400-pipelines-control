@@ -22,6 +22,7 @@ pipeline {
             	   }
 		   input {
 		   	message 'Deploy the application?'
+		   }
             	   steps {
                        echo 'Deploying...'
             	   }
